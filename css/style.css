@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: bisque;
+    color: darkred;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    background-color: beige;
+    color: darkred;
+    padding: 10px;
+}
+
+.site-title {
+    color: brown;
+}
+
+h2, h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+ul li {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd){
+    background-color:dimgray;
+    padding:10px;
+}
+
+#my-image{
+    box-shadow: 2px 1px 0px 0px black;
+}
+
+nav a:link {
+    text-decoration: none;
+    background-color: pink;
+    border-style: solid;
+  }
+  
+nav a:visited {
+    text-decoration: none;
+  }
+  
+nav a:hover {
+    background-color: coral;
+  }
